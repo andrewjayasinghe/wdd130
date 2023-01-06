@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Sevillana&display=swap');
+
+:root{
+--heading-font: "Rock Salt";
+--paragraph-font: "Sevillana";
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+    color: aliceblue;
+    font-family: var(--paragraph-font);
+    font-size: 2.5em;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#hero-msg {
+    text-align: center;
+}
+h1,h2,h4{
+    text-align: center;
+    font-family: var(--heading-font);
+} 
+#hero-msg{
+    text-align: center;
+} 
+.button-box{
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+}
+
+#hero-img{
+    width: 100%;
+}
+
+.icon{
+    width: 80px;
+}
+
+.logo{
+    width: 80px;
+}
+
+#background {
+    height: 425px;
+    background-color: #4f93e7;
+}
+
+body {
+    background-color: #fcfbfb; 
+}
+header {
+    background-color:#396E94;
+}
+nav a:hover {
+    background-color: #a3ca18;
+    color: black;
+}
+
+.book{
+    background-color: ;
+    font-family: var(--paragraph-font);
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.join{
+    color: white;
+    font-family: var(--paragraph-font);
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.book:hover{
+    background-color: #d9c2a3;
+}
+
+.join:hover{
+    background-color: #a3ca18;
+    color:black
+}
+
+.msg{
+    background-color: #4f93e7;
+}
+
+footer{
+    background-color: #4f93e7;
+    text-decoration: none;
+
+}
+
+
+footer p a:hover {
+    text-decoration: underline;
+}   
+
+footer p {
+    font-size: 1.2em;
+    font-family: var(--paragraph-font);
+    text-decoration: none;
+}   
+
+footer p a {
+    font-size: 1.2em;
+    font-family: var(--paragraph-font);
+    text-decoration: none;
+
+} 
+
+.home-title{
+    color: black;
+    font-family: var(--heading-font);
+}
+
+.join:hover{
+    color: black;
+}
+
+.msg h2{
+    color: black;
+    font-family: var(--heading-font);
+}
+
+.msg p{
+    color: black;
+    font-family: var(--paragraph-font);
+    font-size: 1.5em;
+
+}
