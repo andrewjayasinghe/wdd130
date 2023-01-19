@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Sevillana&display=swap');
 
 :root{
---heading-font: "Rock Salt";
---paragraph-font: "Sevillana";
+--heading-font: "Rock Salt",Arial,helvetica;
+--paragraph-font: "Sevillana",monospace,Times;
 }
 
 #content {
@@ -16,8 +16,7 @@ nav a {
     font-family: var(--paragraph-font);
     font-size: 2.5em;
     text-decoration: none;
-    margin-left: 5px;
-    margin-right: 5px;
+    padding: 35px;
 }
 #hero-msg {
     text-align: center;
@@ -26,6 +25,9 @@ h1,h2,h4{
     text-align: center;
     font-family: var(--heading-font);
 } 
+h2{
+    margin:0;
+}
 #hero-msg{
     text-align: center;
 } 
@@ -43,11 +45,18 @@ main section{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo{
     width: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
+#logo_link  {
+    padding-top: 5px;
+} 
 
 #background {
     height: 425px;
@@ -56,6 +65,10 @@ main section{
 
 body {
     background-color: #fcfbfb; 
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:#396E94;
@@ -66,17 +79,27 @@ nav a:hover {
 }
 
 .book{
-    background-color: #4f93e7;
+    background-color: #d5e5f8;
     font-family: var(--paragraph-font);
-    font-size: 1.5em;
+    font-size: 18px;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    color: black;
+    border-radius: 5px;
 }
 
 .join{
-    color: white;
+    
     font-family: var(--paragraph-font);
-    font-size: 1.5em;
+    font-size: 18px;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #a3ca18;
+    color: black;
+    
 }
 
 .book:hover{
@@ -84,18 +107,22 @@ nav a:hover {
 }
 
 .join:hover{
-    background-color: #a3ca18;
-    color:black
+    background-color: #e3ebf1;
 }
 
 .msg{
     background-color: #4f93e7;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
 }
 
 footer{
     background-color: #4f93e7;
     text-decoration: none;
-
+    padding: 25px 50px;
+    margin-top: 200px;
+    margin-bottom: 20px;
 }
 
 
@@ -116,9 +143,15 @@ footer p a {
 
 } 
 
+footer .social img{
+    padding-top: 15px;
+}
+
 .home-title{
     color: black;
     font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .join:hover{
@@ -133,6 +166,27 @@ footer p a {
 .msg p{
     color: black;
     font-family: var(--paragraph-font);
-    font-size: 1.5em;
+    font-size: 0.8em;
+    padding-bottom: 15px;
+}
 
+.rivers-card{
+    margin: 200px 0;
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid #396E94;
+}
+
+.mountains{
+    margin-top: 100px;
+    align-content: center;
 }
