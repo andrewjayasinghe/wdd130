@@ -38,9 +38,9 @@ h2{
 main section{
     text-align: center;
 }
-main section img {
+/* main section img {
     box-sizing: border-box;
-}
+} */
 
 #hero-img{
     width: 100%;
