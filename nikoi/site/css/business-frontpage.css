@@ -229,7 +229,7 @@ body {
       width: 300px;
       border-radius: 15px;
   }
-  span .carousel-caption{
+div .carousel-caption{
     top: 0;
     bottom: auto;
     margin-left: -10%;
@@ -321,10 +321,10 @@ body {
   .pich{
     height:210px;
   }
-  #catsize{
+  .catsize{
     width: 700px;
   }
-  #catpics{
+  .catpics{
     height: 550px;
     border-radius: 15px;
     cursor: pointer;
@@ -335,24 +335,26 @@ body {
   .picd{
     font-size: 20px;
   }
-  #picb{
+  .picb{
     color: black; 
     font-family: cursive;
   }
-  #picw{
+  .picw{
     color: white; 
-    font-family: cursive;
+    /* font-family: cursive; */
+    font-family: var(--heading-font);
+
   }
-  #picw1{
+  .picw1{
     color: black; 
     font-family: cursive;
   }
-  #gdis{
+  .gdis{
     font-weight: 350; 
     float: left; 
     width: 80%;
   }
-  #gl{
+  .gl{
     float: right; 
     margin-top: -18px;
   }
@@ -367,7 +369,7 @@ body {
     /* margin-top: -18px; */
   }
 
-  #glogo{
+  .glogo{
     height:200px;
   }
 }
@@ -384,7 +386,7 @@ body {
     margin-bottom: -10%;
     width: 90%;
 }
-  span .carousel-caption{
+  div .carousel-caption{
     top: 0;
     bottom: auto;
     margin-left: -10%;
@@ -392,7 +394,7 @@ body {
     margin-top: -5%;
     width: 90%;
 }
-  #glogo{
+  .glogo{
     height:100px;
     margin-left: 15px;
   }
@@ -430,12 +432,12 @@ body {
   .index2{
     display: none;
   }
-  #catsize{
+  .catsize{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
-  #catpics{
+  .catpics{
     height: 320px;
     border-radius: 15px;
 
@@ -446,26 +448,28 @@ body {
   .picd{
     font-size: 12px;
   }
-  #picb{
+  .picb{
     color: black; 
     font-family: Arial, Helvetica, sans-serif ;
   }
-  #picw{
+  .picw{
     color: white; 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--heading-font);
+
+    /* font-family: Arial, Helvetica, sans-serif; */
   }
-  #picw1{
+  .picw1{
     color: white; 
     font-family: cursive;
   }
-  #gdis{
+  .gdis{
     font-weight: 350; 
     /* float: left;  */
     width: 97%;
     margin-left: 10px;
     margin-right: auto;
   }
-  #gl{
+  .gl{
     /* float: right;  */
     margin-top: -20px;
     margin-left: auto;
@@ -483,7 +487,7 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  #gt{
+  .gt{
     margin-left: 10px;
   }
   .cardsize{
