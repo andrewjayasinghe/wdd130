@@ -77,6 +77,11 @@ body {
   height:50px;
 }
 
+.main_logo{
+  height:200px;
+  margin-top: 40px;;
+}
+
 #cardAbout{
   background-image: url("../assets/background.jpg");
   margin: auto;
