@@ -105,7 +105,7 @@ body {
 .ml1 .letter {
   display: inline-block;
   line-height: 1em;
-  font-style: var(--paragraph-font);
+  font-family: var(--paragraph-font);
 }
 
 .ml1 .text-wrapper {
@@ -140,7 +140,6 @@ body {
   padding-top: 0.1em;
   padding-right: 0.05em;
   padding-bottom: 0.15em;
-  font-family: 300;
 }
 
 
