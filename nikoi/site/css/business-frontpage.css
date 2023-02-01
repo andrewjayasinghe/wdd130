@@ -54,7 +54,6 @@ body {
   font-size: 50px;
 }
 
-
 .cardAbout{
   background: linear-gradient(-65deg, #060e77, #204e81,#1271be, #0ec6cc);
   background-size: 1000% 400%;
@@ -71,6 +70,11 @@ body {
   animation: gradient 15s ease infinite;
   animation-timing-function: ease-in;   
  
+}
+
+#page_logo{
+  width:60px;
+  height:50px;
 }
 
 #cardAbout{
