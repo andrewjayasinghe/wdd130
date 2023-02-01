@@ -356,12 +356,12 @@ body {
     float: right; 
     margin-top: -18px;
   }
-  #adis{
+  .adis{
     font-weight: 350; 
     float: left; 
     width: 30%;
   }
-  #al{
+  .al{
     float: right; 
     width: 70%;
     /* margin-top: -18px; */
@@ -471,13 +471,13 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  #adis{
+  .adis{
     font-weight: 350; 
     /* float: left;  */
     margin-left: 10px;
     margin-right: auto;
   }
-  #al{
+  .al{
     /* float: right;  */
     margin-top: 20px;
     margin-left: auto;
